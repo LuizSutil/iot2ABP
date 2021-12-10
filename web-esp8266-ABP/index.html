@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>IOT II - ABP</title>
+</head>
+
+<body class="bg-light">
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-secondary">
+        <div class="container text-center text-light">
+            <p class="mb-0 h1 ">IOT II - ABP</p>
+        </div>
+    </nav>
+
+    <div class="container " style="height:1000px;">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="w-100 bg-white border rounded my-1">
+                    <h4 class="text-center py-3">
+                        CLIENT 1
+                    </h4>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="w-100 bg-white border rounded p-2">
+                            <p class="ml-3">
+                                Sala
+                            </p>
+                            <div class="text-center" id="light-shadow-1">
+                                <img src="./assets/img/turned-off.png" alt="" style="height:65px;">
+                            </div>
+                            <div class="mx-auto" style="width: 60px;">
+                                <div class="switch__container">
+                                    <input id="sala-client-1" class="switch switch--shadow switch-shadow client-1" name="shadow-1" type="checkbox" value="" />
+                                    <label for="sala-client-1"></label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="w-100 bg-white border rounded p-2">
+                            <p class="ml-3">
+                                Quarto
+                            </p>
+                            <div class="text-center" id="light-shadow-2">
+                                <img src="./assets/img/turned-off.png" alt="" style="height:65px;">
+                            </div>
+                            <div class="mx-auto" style="width: 60px;">
+                                <div class="switch__container">
+                                    <input id="quarto-client-1" class="switch switch--shadow switch-shadow client-1" name="shadow-2" type="checkbox" value="" />
+                                    <label for="quarto-client-1"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="w-100 bg-white border rounded p-2">
+                            <p class="ml-3">
+                                Cozinha
+                            </p>
+                            <div class="text-center" id="light-shadow-3">
+                                <img src="./assets/img/turned-off.png" alt="" style="height:65px;">
+                            </div>
+                            <div class="mx-auto" style="width: 60px;">
+                                <div class="switch__container">
+                                    <input id="cozinha-client-1" class="switch switch--shadow switch-shadow client-1" name="shadow-3" type="checkbox" value="" />
+                                    <label for="cozinha-client-1"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="w-100 bg-white border rounded my-1">
+                            <p class="ml-3">Sensor de aproximação</p>
+                            <div class="text-center">
+                                <h4 id="sensor-client-1" class="p-3">00.00 cm</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="w-100 bg-white border rounded my-1">
+                    <h4 class="text-center py-3">
+                        CLIENT 2
+                    </h4>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="w-100 bg-white border rounded p-2">
+                            <p class="ml-3">
+                                Sala
+                            </p>
+                            <div class="text-center" id="light-shadow-4">
+                                <img src="./assets/img/turned-off.png" alt="" style="height:65px;">
+                            </div>
+                            <div class="mx-auto" style="width: 60px;">
+                                <div class="switch__container">
+                                    <input id="sala-client-2" class="switch switch--shadow switch-shadow client-2" name="shadow-4" type="checkbox" value="" />
+                                    <label for="sala-client-2"></label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="w-100 bg-white border rounded p-2">
+                            <p class="ml-3">
+                                Quarto
+                            </p>
+                            <div class="text-center" id="light-shadow-5">
+                                <img src="./assets/img/turned-off.png" alt="" style="height:65px;">
+                            </div>
+                            <div class="mx-auto" style="width: 60px;">
+                                <div class="switch__container">
+                                    <input id="quarto-client-2" class="switch switch--shadow switch-shadow client-2" name="shadow-5" type="checkbox" value="" />
+                                    <label for="quarto-client-2"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="w-100 bg-white border rounded p-2">
+                            <p class="ml-3">
+                                Cozinha
+                            </p>
+                            <div class="text-center" id="light-shadow-6">
+                                <img src="./assets/img/turned-off.png" alt="" style="height:65px;">
+                            </div>
+                            <div class="mx-auto" style="width: 60px;">
+                                <div class="switch__container">
+                                    <input id="cozinha-client-2" class="switch switch--shadow switch-shadow client-2" name="shadow-6" type="checkbox" value="" />
+                                    <label for="cozinha-client-2"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="w-100 bg-white border rounded my-1">
+                            <p class="ml-3">Sensor de aproximação</p>
+                            <div class="text-center">
+                                <h4 id="sensor-client-2" class="p-3">00.00 cm</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Aplicação -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
